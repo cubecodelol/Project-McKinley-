@@ -1,0 +1,380 @@
+/*
+
+    Plugins
+
+*/
+
+.container {
+    width: 1440px;
+
+    margin: 0 auto;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*
+
+    Header
+
+*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0;
+
+    background: #00486D;
+}
+
+.header p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #99B6C5;
+}
+
+/*
+
+    Navigator
+
+*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #F2F6F7;
+
+    padding: 25px 85px;
+}
+
+.nav .links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav .links .logo {
+    font-family: 'Playfair Display', Serif;
+    font-size: xx-large;
+    font-weight: 600;
+
+    color: #00486D;
+}
+
+.nav .links .nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.nav .links .nav-bar li a {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+
+    color: #00486D;
+    
+    text-decoration: none;
+}
+
+.nav .contact {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav .contact .number {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+
+    color: #00486D;
+}
+
+.nav .contact .support {
+    display: inline-block;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FFFFFF;
+    background: #00486D;
+
+    padding: 25px 15px;
+
+    border: 1px solid #00486D;
+    border-radius: 4px;
+
+    text-decoration: none;
+}
+
+/*
+
+    Section - 1
+
+*/
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us .text {
+    display: flex;
+    flex-direction: column;
+
+    background: #E4ECF0;
+
+    width: 840px;
+
+    padding: 155px 216px 176px 85px;
+}
+
+.about-us .text .heading {
+    font-family: 'DM Serif Text', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+
+    color: #00486D;
+}
+
+.about-us .text .main-text {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+
+    color: #00486D;
+
+    margin-top: 25px;
+}
+
+.about-us .text .support {
+    display: inline-block;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    padding: 15px 25px;
+
+    margin-top: 35px;
+
+    border: 1px solid #00486D;
+    border-radius: 4px;
+
+    color: #FFFFFF;
+    background: #00486D;
+
+    text-decoration: none;
+}
+
+.about-us .img {
+    position: relative;
+
+    width: 600px;
+
+    background: #00486D;
+}
+
+.about-us .img img {
+    position: absolute;
+
+    right: 35px;
+    top: 50px;
+}
+
+/*
+
+    Section - 2
+
+*/
+
+.practice-areas {
+    padding: 0 85px;
+
+    margin-top: 150px;
+}
+
+.practice-areas .heading {
+    font-family: 'DM Serif Text', Serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+
+    color: #00486D;
+}
+
+.practice-areas .subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+
+    color: #00486D;
+
+    margin-top: 25px;
+}
+
+.practice-areas .practices {
+    display: flex;
+    gap: 40px;
+
+    margin-top: 50px;
+}
+
+.practice-areas .practices .practice {
+    position: relative;
+
+    width: 400px;
+    height: 440px;
+
+    border: 1px solid #E4ECF0;
+
+    background: #FFFFFF;
+}
+
+.practice-areas .practices .practice img {
+    position: absolute;
+    bottom: 335px;
+    left: 35px;
+}
+
+.practice-areas .practices .practice .practice-heading {
+    position: absolute;
+    top: 145px;
+    left: 35px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    color: #00486D;
+}
+
+.practice-areas .practices .practice .practice-text {
+    position: absolute;
+    top: 190px;
+    left: 35px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #00486D;
+}
+
+.practice-areas .practices .practice a {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
+
+    color: #00486D;
+
+    text-decoration: none;
+}
+
+
+/*
+
+    Section - 3
+
+*/
+
+.services {
+    position: relative;
+
+    height: 680px;
+
+    background: url("../img/background.jpg");
+
+    margin: 160px 85px 0 85px;
+}
+
+.services .text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    background: #00486D;
+
+    padding: 50px 60px 70px 55px;
+}
+
+.services .text .heading {
+    font-family: 'DM Serif Text', Serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #F2F6F7;
+}
+
+.services .text .subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+
+    color: #F2F6F7;
+
+    margin-top: 25px;
+}
+
+.services .text a {
+    display: inline-block;
+
+    padding: 15px 25px;
+
+    margin-top: 60px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #00486D;
+    background: #F2F6F7;
+
+    text-decoration: none;
+}
