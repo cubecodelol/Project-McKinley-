@@ -378,3 +378,118 @@
 
     text-decoration: none;
 }
+
+/*
+
+    Section - 4
+
+*/
+
+.mckinley {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 240px;
+}
+
+.mckinley p {
+    font-family: 'DM Serif Text', Serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 51px;
+
+    color: #00486D;
+}
+
+/*
+
+    Section - 5
+
+*/
+
+.recent-projects {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 430px;
+
+    padding: 0 85px;
+}
+
+.recent-projects .heading {
+    font-family: 'DM Serif Text', Serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+
+    color: #00486D;
+}
+
+.recent-projects .projects {
+    display: flex;
+    gap: 40px;
+
+    margin-top: 60px;
+}
+
+.recent-projects .projects .project {
+    position: relative;
+
+    width: 400px;
+    height: 510px;
+
+    border: 1px solid #E4ECF0;
+}
+
+.recent-projects .projects .project img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.recent-projects .projects .project .date {
+    position: absolute;
+    left: 30px;
+    top: 300px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+    color: #00486D;
+}
+
+.recent-projects .projects .project .text {
+    position: absolute;
+    left: 30px;
+    top: 335px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #00486D;
+}
+
+.recent-projects .projects .project a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+
+    color: #00486D;
+
+    text-decoration: none;
+}
